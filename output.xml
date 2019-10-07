@@ -1,0 +1,115 @@
+<program>
+<field_declarations count='9'>
+<declaration name='A' type='integer'>
+<declaration name='B' count='10' type='integer'>
+<declaration name='C' type='boolean'>
+<declaration name='D' count='10' type='boolean'>
+<declaration name='E' type='integer'>
+<declaration name='F' type='integer'>
+<declaration name='G' type='integer'>
+<declaration name='H' type='integer'>
+<declaration name='L' type='integer'>
+</field_declarations>
+<statement_declarations count='3'>
+<RETURN>
+</statement_declarations>
+</program>
+<program>
+<statement_declarations count='2'>
+<assignment>
+<location id='A'/>
+<integer value='4'/>
+</assignment>
+<RETURN>
+</statement_declarations>
+</program>
+<program>
+<statement_declarations count='2'>
+<ifelse>
+<condition><binary_expression type='is_not_equal'>
+<id value='A'/>
+<integer value='2'/>
+</binary_expression>
+<condition/>
+<program>
+<statement_declarations count='1'>
+<assignment>
+<location id='E'/>
+<integer value='5'/>
+</assignment>
+</statement_declarations>
+</program>
+<program>
+<statement_declarations count='2'>
+<assignment>
+<location id='F'/>
+<integer value='6'/>
+</assignment>
+</statement_declarations>
+</program>
+</ifelse>
+<assignment>
+<location id='B'>
+<position>
+<integer value='1'/>
+</position>
+</location>
+<integer value='8'/>
+</assignment>
+</statement_declarations>
+</program>
+<program>
+<statement_declarations count='4'>
+<for>
+<Id = 'H'/>
+<condition1><integer value='3'/>
+<condition1/>
+<condition2><binary_expression type='greater_than'>
+<integer value='7'/>
+<integer value='3'/>
+</binary_expression>
+<condition2/>
+<program>
+<statement_declarations count='2'>
+<assignment>
+<location id='B'>
+<position>
+<binary_expression type='addition'>
+<integer value='2'/>
+<integer value='1'/>
+</binary_expression>
+</position>
+</location>
+<binary_expression type='addition'>
+<integer value='9'/>
+<id value='B'/>
+</binary_expression>
+</assignment>
+<assignment>
+<location id='A'/>
+<binary_expression type='subtraction'>
+<binary_expression type='addition'>
+<integer value='5'/>
+<integer value='10'/>
+</binary_expression>
+<binary_expression type='multiplication'>
+<binary_expression type='division'>
+<integer value='20'/>
+<id value='A'/>
+</binary_expression>
+<integer value='5'/>
+</binary_expression>
+</binary_expression>
+</assignment>
+</statement_declarations>
+</program>
+</for>
+<callout function='"printf"'>
+<id value='A'/>
+</callout>
+<RETURN>
+<EXPRESSION><integer value='1'/>
+<EXPRESSION/>
+</RETURN>
+</statement_declarations>
+</program>

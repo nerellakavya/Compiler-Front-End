@@ -1,0 +1,51 @@
+class Program
+{
+	int A;
+	int B[10];
+	boolean C;
+	boolean D[10];
+	int E, F;
+
+        void funcone()
+	{
+           int G;
+           Y = 2;
+     	   A = Z ;
+           return ;  
+	}
+
+	void funcon()
+	{
+		int H;
+		int L;
+		A = 4;
+		return;
+	}
+
+        boolean functwo(int F)
+	{
+ 		if ( A == 2 )
+		{
+			E = 5;
+		}	
+		else
+		{	
+			F = 6;
+	        	G = 8 + 'c';
+		}		
+		B[1]=8;
+	}
+  
+        int functhree(int A, int H)
+	{
+                for H = 3 , 7 > 3 
+		{ 
+			B[2+1] = 9 + B[1];
+			A = 5 + 10 - 20 / A * 5;
+		}		
+		B[3] = C;
+	        callout("printf", , A);
+                return 1;
+	}
+    	
+}
